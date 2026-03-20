@@ -76,21 +76,58 @@ const TECH_STACK_REGISTRY: Record<ProjectTechKey, ProjectTechItem> = {
 // Add your projects here.
 // Copy the example object below, uncomment it, and replace the values.
 export const projects: ProjectEntry[] = [
-  // {
-  //   slug: "your-project",
-  //   title: "Your Project",
-  //   description: "What it does and why it matters.",
-  //   status: "In Production",
-  //   githubLink: "https://github.com/your-username/your-project",
-  //   siteLink: "https://your-project.vercel.app",
-  //   imageSrc: "/projects/your-project.png",
-  //   techStack: ["typescript", "nextjs", "postgresql"],
-  //   featured: true,
-  // },
+  {
+    slug: "resuno",
+    title: "Resuno – AI Resume Builder",
+    description:
+      "Built an AI powered resume builder that helps students generate ATS-optimized resumes. Implemented modern UI, dynamic forms and AI content generation workflows.",
+    status: "In Development",
+    githubLink: "https://github.com/prathambalehosurr/Resuno",
+    siteLink: "",
+    imageSrc: "/projects/resuno.png",
+    techStack: ["Next.js", "TypeScript", "Tailwind", "AI"],
+    featured: true,
+  },
+  {
+    slug: "encryption",
+    title: "Encryption & Decryption Tool",
+    description:
+      "Built a simple cryptography tool demonstrating encryption and decryption concepts for secure data handling.",
+    status: "Completed",
+    githubLink: "https://github.com/prathambalehosurr/encryptiondecreption",
+    siteLink: "",
+    imageSrc: "/projects/encryption.png",
+    techStack: ["JavaScript"],
+    featured: false,
+  },
+  {
+    slug: "brofessor",
+    title: "Brofessor Learning Platform",
+    description:
+      "Educational platform prototype built using JavaScript for experimenting with learning tools.",
+    status: "Completed",
+    githubLink: "https://github.com/prathambalehosurr/brofessor",
+    siteLink: "",
+    imageSrc: "/projects/brofessor.png",
+    techStack: ["javascript", "html", "css"],
+    featured: false,
+  },
+  {
+    slug: "chirp-chat",
+    title: "Chirp Chat – Real Time Messaging Application",
+    description:
+      "Built a real-time chat application supporting multiple channels, live messaging and user notifications using Socket.IO and Flask. Implemented dynamic UI updates and persistent user sessions.",
+    status: "Completed",
+    githubLink: "https://github.com/prathambalehosurr/Chirp-Chat",
+    siteLink: "",
+    imageSrc: "/projects/chirp.png",
+    techStack: ["Python", "Flask", "JavaScript", "Socket.IO", "HTML", "CSS"],
+    featured: true,
+  },
 ];
 
 export const getProjectTechStack = (
-  techKeys: ProjectTechKey[]
+  techKeys: ProjectTechKey[],
 ): ProjectTechItem[] => techKeys.map((techKey) => TECH_STACK_REGISTRY[techKey]);
 
 export const featuredProjects = projects.filter((project) => project.featured);
