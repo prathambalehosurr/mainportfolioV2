@@ -127,7 +127,7 @@ export const projects: ProjectEntry[] = [
   title: "City Explorer – Location Search Application",
   description:
     "Developed a city exploration web application that allows users to search and view city information through an interactive interface. Focused on frontend design and API data handling.",
-  status: "Completed",
+  status: "Ready",
   githubLink: "https://github.com/prathambalehosurr/City-explorer-assignment",
   siteLink: "ityexplorer.netlify.app",
   imageSrc: "",
