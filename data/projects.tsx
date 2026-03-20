@@ -24,6 +24,9 @@ export type ProjectTechKey =
   | "digital-ocean"
   | "go"
   | "javascript"
+  | "html"
+  | "css"
+  | "api"
   | "mongodb"
   | "nextjs"
   | "nodejs"
@@ -129,7 +132,7 @@ export const projects: ProjectEntry[] = [
     "Developed a city exploration web application that allows users to search and view city information through an interactive interface. Focused on frontend design and API data handling.",
   status: "Ready",
   githubLink: "https://github.com/prathambalehosurr/City-explorer-assignment",
-  siteLink: "ityexplorer.netlify.app",
+  siteLink: "https://cityexplorer.netlify.app",
   imageSrc: "",
   techStack: ["javascript", "html", "css", "api"],
   featured: false,
