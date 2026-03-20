@@ -122,6 +122,18 @@ export const projects: ProjectEntry[] = [
     imageSrc: "",
     techStack: ["javascript"],
   },
+  {
+  slug: "city-explorer",
+  title: "City Explorer – Location Search Application",
+  description:
+    "Developed a city exploration web application that allows users to search and view city information through an interactive interface. Focused on frontend design and API data handling.",
+  status: "Completed",
+  githubLink: "https://github.com/prathambalehosurr/City-explorer-assignment",
+  siteLink: "ityexplorer.netlify.app",
+  imageSrc: "",
+  techStack: ["JavaScript", "HTML", "CSS", "API"],
+  featured: false,
+},
 ];
 
 export const getProjectTechStack = (
