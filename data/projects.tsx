@@ -134,7 +134,7 @@ export const projects: ProjectEntry[] = [
   githubLink: "https://github.com/prathambalehosurr/City-explorer-assignment",
   siteLink: "https://cityexplorer.netlify.app",
   imageSrc: "",
-  techStack: ["javascript", "html", "css", "api"],
+  techStack: ["javascript"],
   featured: false,
 },
 ];
