@@ -14,13 +14,7 @@
 
 </div>
 
----
 
-## 📸 Preview
-
-> _Add a screenshot or GIF of your portfolio here_
-
----
 
 ## 🚀 Tech Stack
 
